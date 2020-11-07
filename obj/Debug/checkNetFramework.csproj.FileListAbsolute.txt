@@ -1,0 +1,14 @@
+C:\Users\jose.sousa1\source\repos\checkNetFramework\bin\Debug\checkNetFramework.exe.config
+C:\Users\jose.sousa1\source\repos\checkNetFramework\bin\Debug\checkNetFramework.exe
+C:\Users\jose.sousa1\source\repos\checkNetFramework\bin\Debug\checkNetFramework.pdb
+C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Debug\checkNetFramework.csprojAssemblyReference.cache
+C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Debug\checkNetFramework.Form1.resources
+C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Debug\checkNetFramework.Properties.Resources.resources
+C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Debug\checkNetFramework.csproj.GenerateResource.cache
+C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Debug\checkNetFramework.csproj.CoreCompileInputs.cache
+C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Debug\checkNetFramework.exe
+C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Debug\checkNetFramework.pdb
+C:\Users\jose.sousa1\source\repos\checkNetFramework\bin\Debug\checkNetFramework.exe.manifest
+C:\Users\jose.sousa1\source\repos\checkNetFramework\bin\Debug\checkNetFramework.application
+C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Debug\checkNetFramework.exe.manifest
+C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Debug\checkNetFramework.application
