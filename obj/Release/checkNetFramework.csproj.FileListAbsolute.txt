@@ -11,3 +11,4 @@ C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Release\checkNetFramewor
 C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Release\checkNetFramework.application
 C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Release\checkNetFramework.exe
 C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Release\checkNetFramework.pdb
+C:\Users\jose.sousa1\source\repos\checkNetFramework\obj\Release\checkNetFramework.csprojAssemblyReference.cache

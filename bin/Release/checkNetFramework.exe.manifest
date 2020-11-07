@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="checkNetFramework.exe" size="49104">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="checkNetFramework.exe" size="108496">
       <assemblyIdentity name="checkNetFramework" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Pd66tIwQ9L2L3//JOt5dA4dn+Ptt6Hd+VoQEwbVqmHs=</dsig:DigestValue>
+        <dsig:DigestValue>lnsBXFV4QACPpRppoUw7P/pSvgHQxIFy0EBmEiQrhxQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -70,6 +70,24 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>TFjIt23d83udwnuJfYB2cVHqq6aEWjWGhZugowTOBBg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="img\linkedin.png" size="53185">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v0EQzgXp2nMHADKneuJ8k9sQ2bDgxFkRdmj0QbX9DAw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="img\pngegg.png" size="17383">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GDIGyFyr29imPzQT39vS3kLGwuMPDrJOdyAI8qZ0thI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

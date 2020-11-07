@@ -86,7 +86,7 @@ namespace checkNetFramework
                     this.Invoke((MethodInvoker)delegate
                     {
                         AppendText(OutPutText);
-                        text = "Verificando no cmd";
+                        text = "Verificando nas informações do Windows aguarde";
                         len = text.Length;
                         initialLen = len + 3;        
 
@@ -171,6 +171,16 @@ namespace checkNetFramework
         public void AppendText(string val)
         {
             richTextResult.AppendText(val);
+        }
+
+        private void githubButton_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/tiagorockman");
+        }
+
+        private void linkedinButton_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://www.linkedin.com/in/tiago--neves/");
         }
     }
 }

@@ -36,6 +36,8 @@
             this.close = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.richTextResult = new System.Windows.Forms.RichTextBox();
+            this.githubButton = new System.Windows.Forms.Button();
+            this.linkedinButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -43,11 +45,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(178, 30);
+            this.label1.Location = new System.Drawing.Point(84, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(484, 46);
+            this.label1.Size = new System.Drawing.Size(655, 46);
             this.label1.TabIndex = 0;
-            this.label1.Text = ".NET FRAMEWORK CHECK";
+            this.label1.Text = ".NET FRAMEWORK VERSION CHECK";
             // 
             // label2
             // 
@@ -101,12 +103,46 @@
             this.richTextResult.TabIndex = 4;
             this.richTextResult.Text = "";
             // 
+            // githubButton
+            // 
+            this.githubButton.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.githubButton.BackgroundImage = global::checkNetFramework.Properties.Resources.pngegg;
+            this.githubButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.githubButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.githubButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.githubButton.ForeColor = System.Drawing.Color.Black;
+            this.githubButton.Image = global::checkNetFramework.Properties.Resources.pngegg;
+            this.githubButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.githubButton.Location = new System.Drawing.Point(608, 377);
+            this.githubButton.Name = "githubButton";
+            this.githubButton.Size = new System.Drawing.Size(75, 61);
+            this.githubButton.TabIndex = 5;
+            this.githubButton.UseVisualStyleBackColor = false;
+            this.githubButton.Click += new System.EventHandler(this.githubButton_Click);
+            // 
+            // linkedinButton
+            // 
+            this.linkedinButton.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.linkedinButton.BackgroundImage = global::checkNetFramework.Properties.Resources.linkedin;
+            this.linkedinButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.linkedinButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.linkedinButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.linkedinButton.ForeColor = System.Drawing.Color.Black;
+            this.linkedinButton.Location = new System.Drawing.Point(713, 377);
+            this.linkedinButton.Name = "linkedinButton";
+            this.linkedinButton.Size = new System.Drawing.Size(67, 61);
+            this.linkedinButton.TabIndex = 6;
+            this.linkedinButton.UseVisualStyleBackColor = false;
+            this.linkedinButton.Click += new System.EventHandler(this.linkedinButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.linkedinButton);
+            this.Controls.Add(this.githubButton);
             this.Controls.Add(this.richTextResult);
             this.Controls.Add(this.close);
             this.Controls.Add(this.checkText);
@@ -132,6 +168,8 @@
         private System.Windows.Forms.Button close;
         private System.Windows.Forms.Timer timer1;
         public System.Windows.Forms.RichTextBox richTextResult;
+        private System.Windows.Forms.Button githubButton;
+        private System.Windows.Forms.Button linkedinButton;
     }
 }
 
